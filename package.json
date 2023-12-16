@@ -1,0 +1,43 @@
+{
+  "name": "@shpaw415/2fa-utils",
+  "version": "1.0.0",
+  "description": "2fa-util with typescript",
+  "main": "./dist/index.js",
+  "scripts": {
+    "build": "tsc"
+  },
+  "keywords": [
+    "2fa",
+    "totp",
+    "auth",
+    "security"
+  ],
+  "author": "justin halle <BUnpm>",
+  "license": "MIT",
+  "types": "./dist/index.d.ts",
+  "dependencies": {
+    "@types/qrcode": "^1.5.5",
+    "otplib": "^12.0.1",
+    "qrcode": "^1.4.4"
+  },
+  "devDependencies": {
+    "@types/node": "^20.10.4",
+    "typescript": "^5.3.3"
+  },
+  "resolutions": {
+    "ansi-regex": "^5.0.1"
+  },
+  "files": [
+    "/dist",
+    "package.json",
+    "README.md"
+  ],
+  "homepage": "https://github.com/shpaw415/2fa-utils",
+  "bugs": {
+    "url": "https://github.com/shpaw415/2fa-utils/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/shpaw415/2fa-utils.git"
+  }
+}
